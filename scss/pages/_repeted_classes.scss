@@ -1,0 +1,34 @@
+@use "../variables/variables" as *;
+.special-heading {
+  color: #ebeced;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  margin: 0;
+}
+p {
+  font-size: 20px;
+  color: #797979;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.srv {
+  display: flex;
+  margin-top: 40px;
+  i {
+    color: $main-color;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .text {
+    flex: 1;
+    p {
+      color: #777;
+      font-weight: 300;
+      margin-top: 20px;
+    }
+  }
+}
